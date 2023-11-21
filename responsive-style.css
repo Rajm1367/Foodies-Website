@@ -1,0 +1,128 @@
+@import url(style.css);
+
+@media (max-width:1024px) {
+    /* about section */
+}
+
+@media(max-width:991px) {
+
+    /* custom-class */
+    .text-content {
+        width: 100%;
+    }
+
+    /* nav-brand */
+    .navigation-wrap .navbar-brand {
+        height: 70px;
+
+    }
+
+    .navigation-wrap {
+        text-align: center;
+        background-color: var(--white-color)
+    }
+
+    .navigation-wrap .nav-link
+    {
+        line-height: 30px;
+    }
+
+    /* banner Design */
+    .top-banner{
+        padding: 150px 0px 150px;
+    }
+
+    /* carousel design */
+    .testimonial-section .carousel-item .carousel-caption p{
+        padding: 0;
+    }
+
+    
+}
+
+
+@media(max-width:767px) {
+
+    /* custom-css */
+    h1{
+        font-size: 45px;
+    }
+
+    h2{
+        font-size: 32px;
+        line-height: 33px;
+    }
+
+     /* nav-brand */
+     .navigation-wrap .navbar-brand {
+        height: 100px;
+
+    }
+
+    /* top banner */
+    .top-banner{
+        padding: 175px 0 150px;
+    }
+
+    /* story section */
+    .story-section{
+        height: auto;
+        padding: 48px 0px;
+    }
+
+    /* carousel design */
+    .testimonial-section .carousel-item{
+        padding: 11rem 3.125rem;
+        
+    }
+
+    /* news letter */
+    .newsletter{
+        width: 75%;
+
+    }
+    .newsletter .main-btn{
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    /* footer */
+    .footer .footer-link,
+    .footer a i{
+        padding: 0 0.7rem;
+    }
+
+    .faq h4{
+        font-size: 16px;
+    }
+
+    .faq p{
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+    .faq-textbox{
+        margin-right: 12px;
+    }
+
+    .second-btn{
+        padding: 10px 16px;
+        font-size: 15px;
+    }
+
+    .form-control{
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:330px) {
+
+        /* carousel design */
+        .testimonial-section .carousel-item{
+            padding: 13rem 3.125rem;
+        }
+    
+}
+
